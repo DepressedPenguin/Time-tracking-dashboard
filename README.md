@@ -32,6 +32,8 @@
         <li>Install dependencies: <code>npm install</code></li>
         <li>Start the development server: <code>npm run dev</code></li>
     </ol>
+i
+    ![Time Tracking Dashboard](https://github.com/DepressedPenguin/Time-tracking-dashboard/raw/master/src/assets/tracking.png)
 
 </body>
 
