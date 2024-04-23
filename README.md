@@ -32,7 +32,7 @@
         <li>Install dependencies: <code>npm install</code></li>
         <li>Start the development server: <code>npm run dev</code></li>
     </ol>
-    (https://github.com/DepressedPenguin/Time-tracking-dashboard/raw/master/src/assets/tracking.png)
+    ![Time Tracking Dashboard](https://raw.githubusercontent.com/DepressedPenguin/Time-tracking-dashboard/master/src/assets/tracking.png)
 
 
 </body>
