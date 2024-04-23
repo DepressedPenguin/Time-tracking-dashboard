@@ -1,0 +1,484 @@
+// SCSS FILE FOR TRACKING DASHBOARD
+
+.main_tracking {
+  width: 100%;
+  // border: 1px solid red;
+  display: grid;
+  grid-template-columns: 20% 76%;
+  gap: 10px;
+  padding: 10px;
+  margin: 50px;
+  position: relative;
+}
+
+// report_user
+.report_user {
+  background-color: rgb(29 32 75);
+  height: 530px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  //   gap: 20px;
+  //   padding: 5px;
+}
+
+// user_name and profile user
+.user_name {
+  background-color: rgb(87 70 234);
+  border-radius: 10px;
+  height: 70%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  //   justify-content: center;
+}
+
+.div_icon_user {
+  // border: 1px solid red;
+  width: 85%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+
+  p {
+    color: rgb(160 155 255);
+    font-weight: 700;
+    font-size: 17px;
+  }
+}
+
+.img_profile {
+  width: 35%;
+  border-radius: 50%;
+  //   filter: bti(50%);
+  border: 4px solid white;
+}
+
+.div_icon_user_name {
+  // border: 1px solid orange;
+
+  width: 85%;
+
+  h3 {
+    font-size: 45px;
+    font-weight: 300;
+  }
+}
+
+// day_week_month
+.activity_schedule {
+  // background-color: rgb(29 32 75);
+  height: 30%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// ul_schedule
+.ul_schedule {
+  // border: 1px solid red;
+  list-style-type: none;
+  width: 85%;
+  height: 90%;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  li {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+// li_unhover
+.li_unhover {
+  color: rgb(118 120 177);
+}
+
+// li_week
+.li_week {
+  color: white;
+}
+
+// // acivity_week
+.acivity_week_boxss {
+  // border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  //   grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr));
+
+  padding: 10px;
+  gap: 40px;
+}
+
+// acivity_week_boxss
+.box_acivitiy {
+  // border: 2px solid greenyellow;
+  border-radius: 5px;
+  padding: 5px;
+  // height: 280px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: transform 0.4s;
+}
+
+.box_acivitiy:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+// sticker_box
+.sticker_box {
+  width: 100%;
+  // height: 25%;
+  // border: 1px solid red;
+}
+
+// details_box
+.details_box {
+  width: 100%;
+  // height: 75%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  // border: 1px solid red;
+}
+
+// BOX ONE [WORK]
+.sticker_box_1 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(255 139 100);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  // border: 1px solid red;
+  background-image: url("../../assets//box_imgs//icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: 185px;
+}
+
+.details_box_1 {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: rgb(29 32 75);
+  // border: 1px solid red;
+  position: relative;
+  top: -15px;
+}
+
+// BOX 2 [PLAY]
+.sticker_box_2 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(86 194 230);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  // border: 1px solid red;
+  background-image: url("../../assets//box_imgs//icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: 185px;
+}
+
+.details_box_2 {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: rgb(29 32 75);
+  // border: 1px solid red;
+  position: relative;
+  top: -15px;
+}
+
+// BOX 3 [STUDY]
+.sticker_box_3 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(255 94 125);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  // border: 1px solid red;
+  background-image: url("../../assets//box_imgs/icon-study.svg");
+  background-repeat: no-repeat;
+  background-position: 185px;
+}
+
+.details_box_3 {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: rgb(29 32 75);
+  // border: 1px solid red;
+  position: relative;
+  top: -15px;
+}
+
+// BOX 3 [Exercice]
+.sticker_box_4 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(75 207 131);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  // border: 1px solid red;
+  background-image: url("../../assets//box_imgs/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-position: 185px;
+}
+
+.details_box_4 {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: rgb(29 32 75);
+  // border: 1px solid red;
+  position: relative;
+  top: -15px;
+}
+
+// BOX 3 [...]
+.sticker_box_5 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(114 53 209);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  // border: 1px solid red;
+  background-image: url("../../assets/box_imgs/icon-social.svg");
+  background-repeat: no-repeat;
+  background-position: 185px;
+}
+
+.details_box_5 {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: rgb(29 32 75);
+  // border: 1px solid red;
+  position: relative;
+  top: -15px;
+}
+
+// BOX 3 [SELF CARE]
+.sticker_box_6 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(241 199 91);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  // border: 1px solid red;
+  background-image: url("../../assets//box_imgs//icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-position: 185px;
+}
+
+.details_box_6 {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: rgb(29 32 75);
+  // border: 1px solid red;
+  position: relative;
+  top: -15px;
+}
+
+// BOX_
+.details_box_1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  // gap: 5px;
+}
+
+.info_card {
+  background-color: rgb(29 32 75);
+}
+
+.info_card_title {
+  // border: 1px solid red;
+  // height: %;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgb(29 32 75);
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info_card_hours {
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(29 32 75);
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  p {
+    color: rgb(159 163 215);
+    font-weight: 300;
+    font-size: 17px;
+  }
+}
+
+.info_card_last_week {
+  // border: 1px solid red;
+  background-color: rgb(29 32 75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+  p {
+    color: rgb(172 176 225);
+    font-size: 17px;
+  }
+}
+
+.headline_box {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.headline_dotes {
+  color: white;
+  width: 12%;
+  // border: 1px solid red;
+  font-size: 22px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+// dote
+.dote {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(202, 191, 191);
+}
+
+.hours_acivity {
+  color: white;
+  font-size: 55px;
+  font-weight: 200;
+  padding: 20px;
+}
+
+// MEDIA QUERY
+@media only screen and (max-width: 1200px) {
+  .main_tracking {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  .report_user {
+    height: 230px;
+  }
+
+  .acivity_week_boxss {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  // For report user section
+  .user_name {
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div_icon_user {
+    display: flex;
+    // height: 60%;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    // border: 1px solid red;
+
+    img {
+      width: 50%;
+    }
+  }
+  // UL
+  .ul_schedule {
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .info_card_hours {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    // border: 1px solid red;
+
+    p {
+      font-size: 15px;
+
+      border-radius: 3px;
+      padding: 3px;
+    }
+  }
+
+  .div_icon_user_name {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    p {
+      color: rgb(216, 209, 209);
+    }
+  }
+
+  .div_icon_user_name h3 {
+    // border: 1px solid red;
+    font-size: 24px;
+    text-align: center;
+
+    br {
+      display: none;
+    }
+  }
+
+  .div_icon_user {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border: none;
+    }
+  }
+}

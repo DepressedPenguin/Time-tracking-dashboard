@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* main_container */
+.main_container {
+  /* border: 1px solid red; */
+  background-color: rgb(13 19 35);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
